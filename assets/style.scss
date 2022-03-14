@@ -1,0 +1,114 @@
+@import "./reset";
+@import "./media";
+$primary-color: #8CC5F9;
+
+.primarycolor {
+    color:$primary-color
+}
+.list {
+    list-style-type: none;
+    :first-child {
+        color: $primary-color;
+    }
+    
+}
+.header {
+    i {
+        display: none;
+    }
+}
+.boder-bottom {
+    position: relative;
+    &:after {
+        content: "";
+        width: 100%;
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: #8CC5F9;
+        position: absolute;
+    }
+}
+.listnone {
+    list-style-type: none;
+    :first-child {
+        color: $primary-color;
+        &:after {
+            content: "";
+            width: 53%;
+            height: 2px;
+            bottom: 0;
+            left: 44px;
+            background-color: #8CC5F9;
+            position: absolute;
+        }
+    }
+}
+.h {
+    height: 200px;
+}
+.avatar {
+    border: 1px solid #8CC5F9;
+    img {
+        border-radius: 80%;
+    }
+}
+.button {
+    a {
+        text-decoration: none;
+        color: #000;
+    }
+}
+.fontlg {
+    font-size: 35px;
+}
+
+.content-text {
+    font-size: 140px !important;
+    margin-right: 30px;
+}
+.box {
+    div button {
+        padding: 10px 55px;
+        border-radius: 5px;
+        border: none;
+        background-color: $primary-color;
+        color: #fff;
+    }
+}
+.color-b {
+    background-color: #F8F8F8;;
+}
+.fontxxl {
+    font-size: 11rem;
+}
+.icon {
+    i {
+        color: $primary-color;
+        width: 30px;
+        height: 30px;
+        background-color: #fff;
+        border-radius: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}}
+
+.rele {
+    position: relative;
+    bottom: -18%;
+    background: #fff;
+}
+.footer {
+    height: 50vh;    
+}
+.mb {
+    margin-bottom: 8rem!important;
+}
+.imghead {
+    position: absolute;
+    top: 0%;
+    left: 21%;
+    width: 10%;
+}
